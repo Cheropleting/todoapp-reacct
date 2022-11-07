@@ -13,8 +13,8 @@
     "heroku-postbuild":"npm run build-prod"
   },
   "engines":{
-    "node":"16.15.1"
-  
+    "node":"<=14.x.x",
+    "npm":"<=6.x.x"
   },
   "author": "",
   "license": "ISC",
